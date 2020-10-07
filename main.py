@@ -8,7 +8,7 @@ load_dotenv()
 
 TOKEN =  os.environ.get("BOT_TOKEN")
 
-
+#token
 bot = telebot.TeleBot(TOKEN)
 keyboard1 = telebot.types.ReplyKeyboardMarkup()
 keyboard1.row('Buy', 'Sell')
